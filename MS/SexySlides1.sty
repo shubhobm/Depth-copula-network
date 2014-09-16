@@ -1,0 +1,178 @@
+
+\mode<presentation> {
+  %\usetheme{Warsaw}
+  %\usetheme{Dresden}
+  \usetheme{Madrid}
+  \usefonttheme[onlylarge]{structurebold}
+\setbeamerfont*{frametitle}{size=\normalsize,series=\bfseries}
+\setbeamertemplate{navigation symbols}{}
+  \usecolortheme{seahorse} } \setbeamercovered{transparent}
+
+% \usepackage{beamerarticle}
+%%%%%%% The above line is creating problems these days
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{times}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx,subfigure}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{color}
+\usepackage{epsfig}
+\usepackage{graphicx}
+% user's definition
+%\usepackage{../../StyleFiles/sabb}
+\usepackage{soul}
+
+\newtheorem{Thm}{Theorem}[section]
+\newtheorem{Lm}{Lemma}[section]
+\newtheorem{Prop}{Proposition}[section]
+\newtheorem{Cry}{Corollary}[section]
+\newtheorem{Rmk}{Remark}[section]
+\newtheorem{Ex}{Example}[section]
+\newtheorem{Claim}{Claim}
+
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\sign}{sign}
+
+
+
+%    \newtheoremstyle{Proof}{\topsep}{\topsep}%
+%      {}%         Body font
+%      {}%         Indent amount (empty = no indent, \parindent = para indent)
+%      {\bfseries}% Thm head font
+%      {}%        Punctuation after thm head
+%      {\newline}%     Space after thm head (\newline = linebreak)
+%      {\thmname{#1}\thmnumber{ #2}\thmnote{ #3}}%         Thm head spec
+
+%    \theoremstyle{Proof}
+%    \newtheorem{Proof}{Proof}[section]
+
+
+%%%%%\newtheorem{Proof}{Proof}[section]
+
+
+
+\definecolor{fuschia}{rgb}{255, 0, 255}
+\newcommand{\colb}{\color{blue}}
+\newcommand{\colg}{\color{green}}
+\newcommand{\colf}{\color{fuschia}}
+\newcommand{\colm}{\color{magenta}}
+\newcommand{\colr}{\color{red}}
+
+\definecolor{indigo}{rgb}{75,0,130}
+\definecolor{darkorange}{rgb}{255, 0, 18} 
+\newcommand{\coli}{\color{indigo}}
+\newcommand{\coldo}{\color{darkorange}}
+\newcommand{\colp}{\color{pink}}
+
+
+%\newcommand{\bfr}{\begin{frame}}
+%\newcommand{\efr}{\end{frame}}
+\newcommand{\bb}{\begin{block}}
+\newcommand{\eb}{\end{block}}
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\bex}{\begin{Example}}
+\newcommand{\eex}{\end{Example}}
+
+
+\newcommand{\ben}{\begin{eqnarray*}}
+\newcommand{\een}{\end{eqnarray*}}
+
+\newcommand{\benu}{\begin{enumerate}}
+\newcommand{\eenu}{\end{enumerate}}
+
+\newcommand{\bfa}{{\bf{a}}}
+\newcommand{\bfb}{{\bf{b}}}
+\newcommand{\bfc}{{\bf{c}}}
+\newcommand{\bfd}{{\bf{d}}}
+\newcommand{\bfe}{{\bf{e}}}
+\newcommand{\bff}{{\bf{f}}}
+\newcommand{\bfl}{{\bf{l}}}
+\newcommand{\bfp}{{\bf{p}}}
+\newcommand{\bfq}{{\bf{q}}}
+\newcommand{\bfr}{{\bf{r}}}
+\newcommand{\bfs}{{\bf{s}}}
+\newcommand{\bfu}{{\bf{u}}}
+\newcommand{\bfv}{{\bf{v}}}
+\newcommand{\bfw}{{\bf{w}}}
+\newcommand{\bfx}{{\bf{x}}}
+\newcommand{\bfy}{{\bf{y}}}
+\newcommand{\bfz}{{\bf{z}}}
+
+\newcommand{\bfA}{{\mathbf{A}}}
+\newcommand{\bfB}{{\mathbf{B}}}
+\newcommand{\bfC}{{\mathbf{C}}}
+\newcommand{\bfD}{{\mathbf{D}}}
+\newcommand{\bfE}{{\mathbf{E}}}
+\newcommand{\bfF}{{\mathbf{F}}}
+\newcommand{\bfI}{{\mathbf{I}}}
+\newcommand{\bfL}{{\mathbf{L}}}
+\newcommand{\bfR}{{\mathbf{R}}}
+\newcommand{\bfS}{{\mathbf{S}}}
+\newcommand{\bfT}{{\mathbf{T}}}
+\newcommand{\bfU}{{\mathbf{U}}}
+\newcommand{\bfV}{{\mathbf{V}}}
+\newcommand{\bfW}{{\mathbf{W}}}
+\newcommand{\bfX}{{\mathbf{X}}}
+\newcommand{\bfY}{{\mathbf{Y}}}
+\newcommand{\bfZ}{{\mathbf{Z}}}
+% \newcommand{\euclR}{I\!\!R}
+
+\newcommand{\cA}{{\cal{A}}}
+\newcommand{\cB}{{\cal{B}}}
+\newcommand{\cC}{{\cal{C}}}
+\newcommand{\cD}{{\cal{D}}}
+\newcommand{\cE}{{\cal{E}}}
+\newcommand{\cF}{{\cal{F}}}
+\newcommand{\cL}{{\cal{L}}}
+\newcommand{\cX}{{\cal{X}}}
+\newcommand{\cY}{{\cal{Y}}}
+\newcommand{\cZ}{{\cal{Z}}}
+%\newcommand{\efr}{\end{frame}}
+
+\newcommand{\BE}{{\mathbb{E}}}
+\newcommand{\BF}{{\mathbb{F}}}
+\newcommand{\BP}{{\mathbb{P}}}
+\newcommand{\BR}{{\mathbb{R}}}
+\newcommand{\BS}{{\mathbb{S}}}
+\newcommand{\BT}{{\mathbb{T}}}
+\newcommand{\BU}{{\mathbb{U}}}
+\newcommand{\BV}{{\mathbb{V}}}
+\newcommand{\BW}{{\mathbb{W}}}
+\newcommand{\BX}{{\mathbb{X}}}
+\newcommand{\BY}{{\mathbb{Y}}}
+\newcommand{\BZ}{{\mathbb{Z}}}
+
+
+\newcommand{\BCOV}{{\mathbb{COV}}}
+
+\newcommand{\colrit}{\color{red} \it}
+\newcommand{\colrbf}{\color{red} \bf}
+\newcommand{\colbit}{\color{blue} \it}
+\newcommand{\colbbf}{\color{blue} \bf}
+\newcommand{\colmit}{\colm \it}
+\newcommand{\colmbf}{\colm \bf}
+
+
+\newcommand{\bfalpha}{{\boldsymbol{\alpha}}}
+\newcommand{\bfbeta}{{\boldsymbol{\beta}}}
+\newcommand{\bfepsilon}{{\boldsymbol{\epsilon}}}
+\newcommand{\bftheta}{{\boldsymbol{\theta}}}
+\newcommand{\bfmu}{{\boldsymbol{\mu}}}
+\newcommand{\bfpi}{{\boldsymbol{\pi}}}
+
+
+\newcommand{\bfBeta}{{\boldsymbol{\Beta}}}
+\newcommand{\bfGamma}{{\boldsymbol{\Gamma}}}
+\newcommand{\bfOmega}{{\boldsymbol{\Omega}}}
+\newcommand{\bfSigma}{{\boldsymbol{\Sigma}}}
+\newcommand{\bfPhi}{{\boldsymbol{\Phi}}}
+
+
+\newcommand{\bfZero}{{\mathbf{0}}}
+\newcommand{\bfOne}{{\mathbf{1}}}
+\newcommand{\iid}{\stackrel{i.i.d.}{\sim}}
+\newcommand{\raro}{\rightarrow}
