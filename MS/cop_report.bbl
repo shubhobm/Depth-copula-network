@@ -1,0 +1,83 @@
+\begin{thebibliography}{10}
+
+\bibitem{4copulas}
+{\sc Aas, K.}
+\newblock Modelling the dependence structure of financial assets: A survey of
+  four copulas.
+\newblock Tech. Rep. SAMBA/22/04, Norwegian Computing Center, Oslo, Norway,
+  December 2004.
+
+\bibitem{vine}
+{\sc Brechmann, E., and Schepmeier, U.}
+\newblock Modeling dependence with {C}- and {D}-vine copulas: The {R} package
+  {CDVine}.
+\newblock {\em Journal of Statistical Software 52\/} (2013), 1--27.
+
+\bibitem{caparaa}
+{\sc Cap\'{a}ra\`{a}, P., Foug\`{e}res, A.-L., and Genest, C.}
+\newblock A nonparametric estimation procedure for bivariate extreme value
+  copulas.
+\newblock {\em Biometrika 84\/} (1997), 567--577.
+
+\bibitem{denecke2010}
+{\sc Denecke, L.}
+\newblock {\em Estimators and Tests based on Likelihood-Depth with Application
+  to {W}eibull Distribution, {G}aussian and {G}umbel Copula}.
+\newblock PhD thesis, University of Cassel, March 2010.
+
+\bibitem{copdepth}
+{\sc Denecke, L., and M\"{u}ller, C.}
+\newblock Robust estimators and tests for bivariate copulas based on likelihood
+  depth.
+\newblock {\em Computational Statistics and Data Analysis 55\/} (2011),
+  2724--2738.
+
+\bibitem{genest}
+{\sc Genest, C., Ghoudi, K., and Rivest, L.-P.}
+\newblock A semiparametric estimation procedure in multivariate families of
+  distribution.
+\newblock {\em Biometrika 82\/} (1995), 543--552.
+
+\bibitem{hoff}
+{\sc Hoff, P.}
+\newblock Extending the rank likelihood for semiparametric copula estimation.
+\newblock {\em The Annals of Applied Statistics 1\/} (2007), 265--283.
+
+\bibitem{paircop}
+{\sc Kim, J.-M., Jung, Y.-S., Sungur, E., Haan, K.-H., Park, C., and Sohn, I.}
+\newblock A copula method for modeling directional dependence of genes.
+\newblock {\em BMC Bioinformatics 9\/} (2008).
+
+\bibitem{mashal}
+{\sc Mashal, R., and Zeevi, A.}
+\newblock Beyond correlation: Extreme co-movements between financial assets.
+\newblock Tech. rep., Columbia University, 2002.
+
+\bibitem{mizera1}
+{\sc Mizera, I.}
+\newblock On depth and deep points: A calculus.
+\newblock {\em The Annals of Statistics 30\/} (2002), 1681--1736.
+
+\bibitem{mizera2}
+{\sc Mizera, I., and M\"{u}ller, C.}
+\newblock Location-scale depth.
+\newblock {\em Journal of the American Statistical Association 99\/} (2004),
+  949--989.
+
+\bibitem{R302}
+{\sc {R Core Team}}.
+\newblock {\em R: {A} Language and Environment for Statistical Computing}.
+\newblock R Foundation for Statistical Computing, Vienna, Austria, 2013.
+
+\bibitem{empcop}
+{\sc Romano, C.}
+\newblock Calibrating and simulating copula functions: An application to the
+  {I}talian stock market.
+\newblock Tech. rep., Capitalia, November 2002.
+
+\bibitem{aicbiccop}
+{\sc Smith, M.}
+\newblock Modelling sample selection using {A}rchimedean copulas.
+\newblock {\em Econometrics Journal 6\/} (2003), 99--123.
+
+\end{thebibliography}
